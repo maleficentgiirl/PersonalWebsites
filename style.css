@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Noto+Serif:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Serif', serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #251809;
+    background-image: url(image/harry.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.header{
+    width: 80%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block; 
+}
+
+.header .logo a{
+    font-size: 35px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.header .logo a span{
+    color: #ff9301;
+    font-size: 45px;
+}
+
+.menubar .menu li{
+    margin: 0 20px;
+}
+
+.menubar .menu li a{
+    font-size: 21px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    transition: all 0.5s;
+}
+
+.menubar .menu li a:hover{
+    color: #ff9301;
+}
+
+.active{
+    color: #ff9301;
+}
+
+.banner{
+    width: 80%;
+    height: 70%;
+    position: absolute;
+    top: 25%;
+    left: 200%px;
+    color: #fff;
+}
+
+.app-text{
+    width: 50%;
+    float: left;
+    margin: 30px 0 30px 40px;
+}
+
+.app-text h6{
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 0 20px;
+
+}
+
+.app-text h2{
+    font-size: 100px;
+    font-weight: 700;
+    margin: 0 0 15px;
+    line-height: 1;
+    color: #fff;
+
+}
+
+.app-text h3{
+    font-size: 40px;
+    font-weight: 500;
+    margin: 0 0 15px;
+    line-height: 1;
+    color: #ff93;
+}
+
+.app-text p{
+    width: 500px;
+    font-size: 17px;
+    line-height: 25px;
+    color: #919191;
+}
+/*about me*/
+.about{
+    padding: 80px 0;
+    color: #251809;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-col-1{
+    flex-basis: 35%;
+}
+
+.about-col-1 img{
+    width: 80%;
+    border-radius: 15px;
+}
+
+.about-col-2{
+    flex-basis: 60%;
+}
+
+.sub-title{
+    font-size: 60px;
+    font-weight: 600;
+    color: #fff;
+}
+
+/*My Friends*/
+
+.friends{
+    padding: 80px 0;
+    color: #442808;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.friends-1{
+    width: 25%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.friends-1 img{
+    width: 100%;
+    min-height: auto;
+    margin: 5px;
+    border: 6px dodgerblue;
+}
+
+.friends-col-2{
+    flex-basis: 60%;
+
+.Title-name{
+    font-size: 60px;
+    font-weight: 600;
+    color: #06612c;
+}
